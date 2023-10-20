@@ -1,21 +1,22 @@
-import React from "react";
-import { Outlet, NavLink } from "react-router-dom";
+import React, { useState } from "react";
+// import Logo from "./compoents/Logo";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
+  const [noo, setnoo] = useState(false);
   return (
-    <div className="nav">
-      <div className="header">
-        <div className="nav-list">
-          <NavLink to="/">
-            <button className="text-btn">Text</button>
-          </NavLink>
-          <NavLink to="ATOZ">
-            <button className="atoz-btn">Alphabets</button>
-          </NavLink>
-        </div>
+    <>
+      <div className="logo-container">
+        <img src="/logo2.jpg" alt="Logo" className="logo-image" />
+        <span className="logo-text">TYPING</span>
+        <NavLink to="/">
+          <button className="text-btn">Text</button>
+        </NavLink>
+        <NavLink to="ATOZ">
+          <button className="atoz-btn">Alphabets</button>
+        </NavLink>
       </div>
-      <Outlet />
-    </div>
+    </>
   );
 }
 

@@ -49,17 +49,18 @@ body {
   padding-bottom: 2px;
   font-size: 30px;
   border: none;
-  width: 100px;
-  height: 49px;
+  width: 150px;
+  height: 54px;
   border-radius: 30px;
   background-color: white;
+  margin-right: 10px;
 }
 
 .atoz-btn {
   padding-top: 2px;
   border: none;
-  width: 200px;
-  height: 49px;
+  width: 250px;
+  height: 51px;
   font-size: 30px;
   border-radius: 30px;
   background-color: white;
@@ -257,4 +258,46 @@ h1 {
 }
 .color {
   color: orangered;
+}
+/* Add your own styles for the logo and navbar */
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(69, 177, 236);
+  margin-bottom: 30px;
+}
+
+.logo-image {
+  width: 100px; /* Set your preferred width */
+  height: 100px; /* Set your preferred height */
+  margin-right: 10px;
+  margin-left: 30px; /* Adjust spacing */
+}
+
+.logo-text {
+  letter-spacing: 2px;
+  font-size: 60px;
+  margin-right: 2950px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333; /* Set your preferred background color */
+  color: white; /* Set your preferred text color */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Adjust spacing between navigation items */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white; /* Set your preferred text color */
 }
