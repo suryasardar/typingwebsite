@@ -273,6 +273,7 @@ h1 {
 .logo-image {
   width: 100px; /* Set your preferred width */
   height: 100px; /* Set your preferred height */
+  border-radius: 65px;
   margin-right: 10px;
   margin-left: 30px; /* Adjust spacing */
 }
@@ -280,6 +281,7 @@ h1 {
 .logo-text {
   letter-spacing: 2px;
   font-size: 60px;
+  font-style: italic;
   margin-right: 2450px;
 }
 
