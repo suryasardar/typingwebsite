@@ -117,7 +117,9 @@ html {
 }
 .title-atoz {
   display: flex;
-  gap: 350px;
+  justify-content: space-between;
+
+  /* gap: 350px; */
 }
 .reset-btn {
   border: none;
