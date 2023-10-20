@@ -11,7 +11,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Text />} />
-          <Route path="ATOZ" element={<Atoz />} />
+          <Route path="ALPHABETS" element={<Atoz />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Nav() {
-  const [noo, setnoo] = useState(false);
   return (
     <>
       <div className="logo-container">
@@ -12,7 +11,7 @@ function Nav() {
         <NavLink to="/">
           <button className="text-btn">Text</button>
         </NavLink>
-        <NavLink to="ATOZ">
+        <NavLink to="ALPHABETS">
           <button className="atoz-btn">Alphabets</button>
         </NavLink>
       </div>

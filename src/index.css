@@ -37,7 +37,7 @@ body {
 
   gap: 60px;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(245, 235, 235);
   width: 450px;
   height: 70px;
   margin-top: 40px;
@@ -89,7 +89,7 @@ button:hover {
 }
 .container-atoz {
   width: 80vw;
-  max-width: 900px;
+  /* max-width: 900px; */
   height: 80vh;
   /* padding-top: none; */
   background-color: rgb(216, 215, 232);
@@ -100,7 +100,7 @@ button:hover {
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 html {
-  zoom: 68%;
+  zoom: 78%;
 }
 
 .atoz {
@@ -263,8 +263,9 @@ h1 {
 .logo-container {
   display: flex;
   align-items: center;
-  background-color: rgb(69, 177, 236);
-  margin-bottom: 30px;
+  background-color: rgb(225, 231, 234);
+  margin-bottom: 40px;
+  height: 150px;
 }
 
 .logo-image {
@@ -277,7 +278,7 @@ h1 {
 .logo-text {
   letter-spacing: 2px;
   font-size: 60px;
-  margin-right: 2950px;
+  margin-right: 2450px;
 }
 
 .navbar {
