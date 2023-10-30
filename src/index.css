@@ -9,7 +9,9 @@ body {
   margin: 0; /* Remove default body margin */
   padding: 0; /* Remove default body padding */
   /* background-image: url("/home/maneesh/Downloads/Typing.jpg");  */
-  background-image: url("/React-typing-app-main/public/Typing.jpg");
+  /* background-image: url("/React-typing-app-main/public/Typing.jpg"); */
+  background-image: url("../../public/Typing.jpg");
+
   /* Replace with the actual path to your image */
   background-size: cover;
   zoom: 75%;
