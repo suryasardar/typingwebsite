@@ -1,5 +1,5 @@
 #1
-FROM node:alpine
+FROM node:alpine as website
 
 WORKDIR /typingwebsite
 
@@ -13,16 +13,16 @@ RUN npm run build
 
 
 #2
-# FROM nginx:alpine
+# Use the Nginx image for serving the application
+FROM nginx:alpine
 
-# RUN rm /etc/nginx/conf.d/default.conf
+WORKDIR  /usr/share/nginx/html
+# Copy the built files from the previous stage into the Nginx image
+run rm -rf ./*
+COPY --from=website /typingwebsite/build .
 
-# COPY nginx.conf /etc/nginx/conf.d/
-
-# COPY --from=0 /app/build /usr/share/nginx/html
-
+# Copy the Nginx configuration file
+# COPY nginx.conf /etc/nginx/conf.d/default.conf
+Entrypoint ["nginx","-g","daemon off;"]
+# Expose the port
 # EXPOSE 80
-
-# CMD ["nginx", "-g", "daemon off;"]
-
-# 
