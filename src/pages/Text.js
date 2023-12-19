@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { faker } from "@faker-js/faker";
 import useKeyPress from "../Hooks/Keypress";
 import clickaudio from "../Audio/click.mp3.mp3";
+
 import erroraudio from "../Audio/Oops.mp3";
 import hurrayaudio from "../Audio/hurray.mp3";
 
