@@ -1,6 +1,6 @@
 body {
   margin: 0;
-
+  /* transform: scale(1.2); */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -14,7 +14,7 @@ body {
 
   /* Replace with the actual path to your image */
   background-size: cover;
-  zoom: 75%;
+  zoom: 120%;
 }
 
 * {
@@ -104,7 +104,7 @@ button:hover {
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 html {
-  zoom: 68%;
+  zoom: 67%;
 }
 
 .atoz {

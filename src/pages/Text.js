@@ -5,7 +5,7 @@ import clickaudio from "../Audio/click.mp3.mp3";
 import erroraudio from "../Audio/Oops.mp3";
 import hurrayaudio from "../Audio/hurray.mp3";
 
-const text = faker.random.words(13);
+const text = faker.random.words(39);
 const currentTime = () => new Date().getTime();
 
 function Text() {
