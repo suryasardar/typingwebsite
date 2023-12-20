@@ -31,7 +31,7 @@ function Text() {
     let updatedIncomingChars = incomingChars;
     const updatedTypedChars = typedletters + key;
     settypedletters(updatedTypedChars);
-    if (key === currentchar && incomingChars.length != 0) {
+    if (key === currentchar && incomingChars.length !==0) {
       click.play();
       seterror(false);
       if (incomingChars.charAt(0) === " ") {

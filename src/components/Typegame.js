@@ -21,14 +21,14 @@ function Typegame(props) {
       seterrors(0);
       props.setreset(false);
     }
-  }, [props.reset]);
+  }, [props]);
   useKeyPress((key) => {
     let updatedOutgoingChars = outgoingChars;
     let updatedIncomingChars = incomingChars;
     const updatedTypedChars = typedletters + key;
     settypedletters(updatedTypedChars);
 
-    if (key === currentchar && incomingChars.length != 0) {
+    if (key === currentchar && incomingChars.length !==0) {
       props.setIsActive(true);
       props.setIsPaused(false);
       seterrorcolor(true);
